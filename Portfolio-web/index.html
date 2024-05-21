@@ -12,6 +12,18 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+        var fecha = new Date();
+        var ano = fecha.getFullYear();
+        var mes = fecha.getMonth();
+        var dia = fecha.getDate();
+        <!--concantenación de las variables que obtienen el dia, mes y año de la máquina-->
+        var fechaActual = dia + '/' + mes + '/' + ano;
+        var elementoFecha = document.getElementById("fecha_act");
+        elementoFecha.innerHTML = 'Última actualización: ' + fechaActual})
+</script>
+
 </head>
 <body>
         <header class="encabezado">
@@ -49,7 +61,15 @@
             </section>
 
 
+
         </main>
+
+        <footer>
+            <div class="d-flex p-2">
+                <p id="fecha_act"></p>
+            </div>
+            
+        </footer>
     
 </body>
 </html>
