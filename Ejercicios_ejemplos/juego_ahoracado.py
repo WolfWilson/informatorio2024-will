@@ -103,7 +103,7 @@ def jugar():
             intentos_restantes -= 1
             print("Letra incorrecta.")
     
-    print(f"\nPerdiste! ¯\_(ツ)_/¯ . La palabra secreta era: {palabra_secreta}")
+    print(f"\nPerdiste! ¯\\_(ツ)_/¯ . La palabra secreta era: {palabra_secreta}")
 
 def main():    # Función principal del programa
 
