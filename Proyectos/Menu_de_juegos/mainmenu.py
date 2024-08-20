@@ -14,7 +14,7 @@ ICON_PATH = os.path.join(os.path.dirname(__file__), 'src', 'iconmenu.ico')
 juegos = {
     "Ahorcado By Wilson": ("ahorcado_tkv2.py", "skull.png"),
     "Mesa de Apuestas By José": ("MesaDeApuesta.pyw", "bet.png"),
-    "Blackjack 21 By Cristian": ("balckjack_21_tk_inter.py", "bj.png"),
+    "Blackjack 21 By Cristian": ("blackjack_21_apuestas.py", "bj.png"),
     "Piedra Papel Tijeras By Mariana (en espera)": ("piedra_papel_tijeras.py", "rps.png"),  # Futuro juego
     "Juego Desconocido (en espera)": ("juego_desconocido.py", "unknown.png")  # Futuro juego
 }
